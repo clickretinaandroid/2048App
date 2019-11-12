@@ -232,6 +232,7 @@ public class MainActivity extends AppCompatActivity implements AppUtility.IAppEx
             mInterstitialAd.show();
         } else {
             Log.d("TAG", "The interstitial wasn't loaded yet.");
+            mInterstitialAd.loadAd(new AdRequest.Builder().build());
         }
 
     }
