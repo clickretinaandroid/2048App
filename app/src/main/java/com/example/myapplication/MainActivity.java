@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements AppUtility.IAppEx
             @Override
             public boolean onConsoleMessage(ConsoleMessage consoleMessage) {
                 if (consoleMessage.message().equalsIgnoreCase("GAME OVER")) {
-                    Toast.makeText(MainActivity.this, "Game Over!!", Toast.LENGTH_LONG).show();
+                   // Toast.makeText(MainActivity.this, "Game Over!!", Toast.LENGTH_LONG).show();
                     showInterstitialAd();
                 }
 
