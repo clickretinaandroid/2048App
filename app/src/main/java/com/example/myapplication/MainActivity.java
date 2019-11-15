@@ -14,7 +14,6 @@ import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
 import android.webkit.ConsoleMessage;
-import android.webkit.JavascriptInterface;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -32,7 +31,7 @@ import com.onesignal.OneSignal;
 
 import java.util.Locale;
 
-public class MainActivity extends AppCompatActivity implements AppUtility.IAppExit {
+public class MainActivity extends AppCompatActivity {
 
     private static final String MAIN_ACTIVITY_TAG = "2048_MainActivity";
     private WebView mWebView;
@@ -214,19 +213,9 @@ public class MainActivity extends AppCompatActivity implements AppUtility.IAppEx
 
     @Override
     public void onBackPressed() {
-        AppUtility.showAlertDialog(this, this);
+        Custom_dialog cdd = new Custom_dialog(this);
+        cdd.show();
     }
-
-    @Override
-    public void onAppExit() {
-
-    }
-
-    @Override
-    public void onPointerCaptureChanged(boolean hasCapture) {
-
-    }
-
     public void showInterstitialAd() {
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
