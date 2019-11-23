@@ -10,8 +10,9 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:text="Rate us if you like 2048"
+        android:textSize="16dp"
         android:textColor="@color/browser_actions_text_color"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,37 +23,38 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:orientation="horizontal"
         android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="horizontal"
         android:weightSum="1">
 
         <TextView
             android:id="@+id/rate_us"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="RATE US"
+            android:layout_weight="0.6"
             android:gravity="center_vertical"
-            android:textColor="@color/colorAccent"
-            android:layout_weight="0.6"/>
+            android:text="RATE US"
+            android:textColor="@color/colorAccent" />
 
         <TextView
             android:id="@+id/no"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="NO"
-            android:gravity="center"
-            android:textColor="@color/browser_actions_bg_grey"
             android:layout_weight="0.2"
-            android:background="@color/browser_actions_text_color"/>
+            android:background="@color/browser_actions_text_color"
+            android:gravity="center"
+            android:text="NO"
+            android:textColor="@color/browser_actions_bg_grey" />
 
         <TextView
             android:id="@+id/yes"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="YES"
-            android:gravity="center"
+            android:layout_weight="0.2"
             android:background="@color/color_btn"
-            android:textColor="@color/browser_actions_bg_grey"
-            android:layout_weight="0.2"/>
+            android:gravity="center"
+            android:text="YES"
+            android:textColor="@color/browser_actions_bg_grey" />
     </LinearLayout>
 </LinearLayout>
