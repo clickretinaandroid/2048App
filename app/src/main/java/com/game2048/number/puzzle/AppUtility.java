@@ -1,10 +1,12 @@
-package com.example.myapplication;
+package com.game2048.number.puzzle;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+
+import com.game2048.number.BuildConfig;
 
 import java.util.ArrayList;
 import java.util.Arrays;

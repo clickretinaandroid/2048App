@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.game2048.number.puzzle;
 
 import android.annotation.SuppressLint;
 import android.content.SharedPreferences;
@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.game2048.number.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;

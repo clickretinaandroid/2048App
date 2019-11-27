@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.game2048.number.puzzle;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -11,6 +11,9 @@ import android.view.Window;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+
+import com.game2048.number.BuildConfig;
+import com.game2048.number.R;
 
 public class Custom_dialog extends Dialog implements View.OnClickListener {
     public Activity activity;

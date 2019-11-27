@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.game2048.number;
 
 import org.junit.Test;
 
