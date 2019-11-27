@@ -5,9 +5,9 @@
 
     //To be Changed
     <string name="app_name">2048</string>
-    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="admob_unit_banner_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="admob_unit_Interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_app_id">ca-app-pub-5820722969718167~3816087745</string>
+    <string name="admob_unit_banner_id">ca-app-pub-5820722969718167/7595550654</string>
+    <string name="admob_unit_Interstitial_id">ca-app-pub-5820722969718167/7152697523</string>
 
 
 </resources>
