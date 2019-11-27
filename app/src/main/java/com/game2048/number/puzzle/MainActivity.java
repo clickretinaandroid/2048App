@@ -214,8 +214,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Custom_dialog cdd = new Custom_dialog(this);
-        cdd.show();
+        CustomDialog rateUsDialog = new CustomDialog(this);
+        rateUsDialog.show();
     }
     public void showInterstitialAd() {
         if (mInterstitialAd.isLoaded()) {

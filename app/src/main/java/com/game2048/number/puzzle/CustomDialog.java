@@ -15,12 +15,12 @@ import androidx.annotation.NonNull;
 import com.game2048.number.BuildConfig;
 import com.game2048.number.R;
 
-public class Custom_dialog extends Dialog implements View.OnClickListener {
+public class CustomDialog extends Dialog implements View.OnClickListener {
     public Activity activity;
-    public Dialog d;
-    public TextView rate_us, yes, no;
+   // public Dialog d;
+    public TextView tvRate_us, tvYes, tvNo;
 
-    public Custom_dialog(@NonNull Context context) {
+    public CustomDialog(@NonNull Context context) {
         super(context);
         this.activity = (Activity) context;
     }
@@ -31,12 +31,12 @@ public class Custom_dialog extends Dialog implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_custom_dialog);
-        rate_us = findViewById(R.id.rate_us);
-        yes = findViewById(R.id.yes);
-        no = findViewById(R.id.no);
-        rate_us.setOnClickListener(this);
-        yes.setOnClickListener(this);
-        no.setOnClickListener(this);
+        tvRate_us = findViewById(R.id.rate_us);
+        tvYes = findViewById(R.id.yes);
+        tvNo = findViewById(R.id.no);
+        tvRate_us.setOnClickListener(this);
+        tvYes.setOnClickListener(this);
+        tvNo.setOnClickListener(this);
     }
 
     @Override
